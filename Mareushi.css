@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+:root {
+    --primari-color:#89CAD9;
+    --sedundary-color:#DCF0F2;
+    --bg-header:#2A4040;
+
+    --extra-color:#F2C9BB;
+    --text-color:#F25D50;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+header {
+    background-color: var(--bg-header);
+}
+
+.nav-links {
+    margin-right: 60px;
+
+    & a {
+        color: var(--sedundary-color);
+        padding: 5px;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    & a:hover{
+        background-color: var(--text-color);
+        border-radius: 10px;
+    }
+}
+.title {
+    margin-left: 200px;
+    text-transform: uppercase;
+    color: var(--sedundary-color);
+
+    &::first-letter {
+        font-size: 70px;
+        color: var(--text-color);
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width:758px){
+    #nav {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+    }
+    .title, .nav-links{
+        margin: 0;
+    }  
+}
+/* Carrusel Images */
+.carousel-inner > .carousel-item > img {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+  }
+/* footer */
+footer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: #2A404090;
+    bottom: 0;
+    
+}
