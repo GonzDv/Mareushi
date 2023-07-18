@@ -25,7 +25,7 @@
           <div class="logo">
             <img
               class="d-block d-sm-block d-md-none"
-              src="./images/logo.png"
+              src="./src/images/logo.png"
               alt="Logo Mareushi "
               width="140"
               height="140"
@@ -55,7 +55,7 @@
                 <a class="" href="#Inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="" href="#Menu">Menú</a>
+                <a class="" href="/menu.html">Menú</a>
               </li>
               <li class="nav-item">
                 <a class="" href="/Sucursal.html">Sucursal</a>
@@ -78,28 +78,28 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./images/carrusel/1.png"
+              src="./src/images/carrusel/1.png"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./images/carrusel/2.png"
+              src="./src/images/carrusel/2.png"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./images/carrusel/3.png"
+              src="./src/images/carrusel/3.png"
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./images/carrusel/4.png"
+              src="./src/images/carrusel/4.png"
               class="d-block w-100"
               alt="..."
             />
@@ -133,10 +133,10 @@
           <hr class="line" />
         </div>
         <div class="foods container">
-          <div class="food especiales shu3">
+          <div class="food especiales size3">
             <img
               class="food-img-2"
-              src="./images/foods/especiales2.png"
+              src="./src/images/foods/especiales2.png"
               alt=""
             />
             <!-- <img class="food-img-2" src="./images/foods/especiales.png" alt="" /> -->
@@ -145,36 +145,40 @@
               <a class="ver-menu" href="#">Ver menú</a>
             </div>
           </div>
-          <div class="food basicos shu2">
-            <img class="food-img-1" src="./images/foods/sushi.jpg" alt="" />
+
+          <div class="food basicos size2">
+            <img class="food-img-1" src="./src/images/foods/sushi.jpg" alt="" />
             <div class="overlay-menu">
               <h1 class="title-menu">Básicos</h1>
               <a class="ver-menu" href="#">Ver menú</a>
             </div>
           </div>
-          <!-- <div class="food bebidas fn">
+
+          <div class="food bebidas size1" >
             <img
               class="food-img-1"
-              src="./images/foods/bebidas.png"
+              src="./src/images/foods/bebidas.png"
               alt=""
             />
             <div class="overlay-menu">
               <h1 class="title-menu">Bebidas</h1>
               <a class="ver-menu" href="#">Ver menú</a>
             </div>
-          </div> -->
-          <div class="food postres shu2">
-            <!-- <img class="food-img-2" src="./images/foods/postres.png" alt="" /> -->
-            <img class="food-img-1" src="./images/foods/postres.jpeg" alt="" />
+          
+          </div>
+          <!-- <div class="food postres size2">
+            <img class="food-img-2" src="./images/foods/postres.png" alt="" />
+            <img class="food-img-1" src="./src/images/foods/postres.jpeg" alt="" />
             <div class="overlay-menu">
               <h1 class="title-menu">Postres</h1>
               <a class="ver-menu" href="#">Ver menú</a>
             </div>
-          </div>
-          <div class="food tostadas shu2">
+          </div> -->
+          
+          <div class="food tostadas size2">
             <img
               class="food-img-1"
-              src="./images/foods/tostada-marisco.jpg"
+              src="./src/images/foods/tostada-marisco.jpg"
               alt=""
             />
             <div class="overlay-menu">
@@ -183,10 +187,18 @@
             </div>
           </div>
 
-          <div class="food entradas shu1">
-            <img class="food-img-2" src="./images/foods/entradas.jpeg" alt="" />
+          <div class="food entradas size1">
+            <img class="food-img-2" src="./src/images/foods/entradas.jpeg" alt="" />
             <div class="overlay-menu">
               <h1 class="title-menu">Entradas</h1>
+              <a class="ver-menu" href="#">Ver menú</a>
+            </div>
+          </div>
+
+          <div class="food fuertes size1">
+            <img class="food-img-2" src="./src/images/foods/fuertes.png" alt="" />
+            <div class="overlay-menu">
+              <h1 class="title-menu">Fuertes</h1>
               <a class="ver-menu" href="#">Ver menú</a>
             </div>
           </div>
@@ -195,7 +207,31 @@
     </section>
     <section id="Promociones" class="container"></section>
     <footer class="container-fluid">
-      © Mareushi 2023. Todos los derechos reservados.
+      <div class="footer-icon">
+        <img
+          class="f-logo"
+          src="./src/images/logo.png"
+          alt="Logo Mareushi "
+
+        />
+      </div>
+      <div class="reserved">
+        © Mareushi 2023. Todos los derechos reservados.
+      </div>
+      
+
+      <div class="social-media">
+        <a href="https://www.facebook.com/Mareushi/" target="_blank">
+          <img src="./src/images/icons/facebook-logo-2019.png" alt="facebook" 
+          width="24px"
+          height="24px"/>
+        </a>
+        <a href="https://www.instagram.com/mareushi/" target="_blank">
+          <img src="./src/images/icons/instagram.png" alt="instagram" 
+          width="24px"
+          height="24px"/>
+        </a>
+      </div>
     </footer>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

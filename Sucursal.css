@@ -1,6 +1,18 @@
 @import url(.//Mareushi.css);
 /* .ubicacion {
 } */
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 100%;
+
+}
+
 .title-suc {
   display: flex;
   align-items: center;
@@ -60,3 +72,6 @@ ul {
   list-style: none;
 }
 
+p {
+  font-size: 18px;
+}

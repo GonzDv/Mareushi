@@ -1,0 +1,47 @@
+/* footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    background-color: #282b2b;
+    margin-top: 50px;
+    color: white;
+
+  }
+.f-logo {
+    width: 60px;
+    height: 60px;
+}
+.social-media, .footer-icon  {
+    margin: 0 20px 0 20px;
+    & a {
+        text-decoration: none;
+    }
+}
+.social-media {
+    display: flex;
+    width: 90px;
+    align-items: center;
+    justify-content: space-around;
+}
+.reserved {
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (max-width: 430px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .f-logo {
+        width: 90px;
+        height: 90px;
+    }
+    .reserved {
+        margin: 0px 0 30px 0;
+    }
+}
