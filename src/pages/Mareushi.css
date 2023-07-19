@@ -42,12 +42,13 @@ header {
   text-transform: uppercase;
   color: var(--sedundary-color);
 
-  &::first-letter {
+  
+}
+
+.title:first-letter {
     font-size: 70px;
     color: var(--text-color);
   }
-}
-
 /* Carrusel Images */
 
 .carousel-inner > .carousel-item > img {
@@ -116,18 +117,19 @@ header {
   opacity: 0;
   transition: 0.5s ease;
   background-color: #00000090;
+}
 
-  & a {
+.overlay-menu a {
     color: white;
     text-decoration: none;
   }
-  & a:hover {
+.overlay-menu a:hover {
     color: #ffffff90;
   }
-  & .title-menu {
+.overlay-menu .title-menu {
     color: white;
   }
-}
+
 .food:hover .overlay-menu {
   opacity: 1;
 }
