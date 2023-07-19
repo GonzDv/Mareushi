@@ -21,19 +21,20 @@ header {
 .nav-links {
   margin-right: 60px;
 
-  & a {
-    color: var(--sedundary-color);
-    padding: 6px 18px;
-    text-decoration: none;
-    margin-right: 10px;
-    text-align: center;
-  }
-  & a:hover {
-    color: var(--sedundary-color);
-    background-color: var(--text-color);
-    border-radius: 10px;
-    transition: 0.5;
-  }
+  
+}
+.nav-links  a {
+  color: var(--sedundary-color);
+  padding: 6px 18px;
+  text-decoration: none;
+  margin-right: 10px;
+  text-align: center;
+}
+.nav-links a:hover {
+  color: var(--sedundary-color);
+  background-color: var(--text-color);
+  border-radius: 10px;
+  transition: 0.5;
 }
 
 .title {
