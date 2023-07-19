@@ -164,6 +164,13 @@ header {
   .size3 {
     grid-column: span 2;
   }
+  .navbar-collapse {
+    margin-left: 15px;
+  }
+
+  .carousel-inner > .carousel-item > img {
+    height: 30vh;
+  }
 }
 /* 390px */
 @media screen and (max-width: 430px) {
