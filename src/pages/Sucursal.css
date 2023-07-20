@@ -51,6 +51,7 @@ main {
 .ub-details, .phones, .horarios{
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 .details p {
   margin-bottom: 0;
