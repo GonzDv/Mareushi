@@ -42,10 +42,7 @@ main {
   font-size: 30px;
   font-weight: bold;
 }
-.details,
-.ub-details,
-.phones,
-.horarios {
+.details, .ub-details, .phones, .horarios {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
