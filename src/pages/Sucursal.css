@@ -42,10 +42,15 @@ main {
   font-size: 30px;
   font-weight: bold;
 }
-.details, .ub-details, .phones, .horarios {
+.details {
+  display: flex;
+  align-items:start;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.ub-details, .phones, .horarios{
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
 }
 .details p {
   margin-bottom: 0;
